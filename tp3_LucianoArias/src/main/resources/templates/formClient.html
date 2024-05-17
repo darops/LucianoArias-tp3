@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario</title>
+		<link rel="stylesheet" href="/css/styles.css"></link>
+	</head>
+	<body>
+		<header>
+			<h1>Programacion Visual</h1>
+			<nav>
+				<ul>
+					<li><a href="/">Volver</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main">
+			<h1>Formulario de Datos</h1>
+			<form>
+				<label for="dni">DNI:</label>
+				<input id="dni" type="number" required placeholder="Ingrese el DNI en numero" name="dni"></input><br>
+				<label for="nombres">Nombres:</label>
+				<input id="nombres" type="text" required placeholder="Ingrese sus nombres" name="nombres"></input><br>
+				<label for="apellidos">Apellidos:</label>
+				<input id="apellidos" type="text" required placeholder="Ingrese sus apellidos" name="apellidos"></input><br>
+				<label for="fechaNacimiento">Fecha de Nacimiento:</label>
+				<input id="fechaNacimiento" type="date" required placeholder="Ingrese su nacimiento" name="fechaNacimiento"></input><br>
+				<div>
+					<label for="generoM">Masculino:</label>
+					<input id="generoM" type="radio" required value="Masculino" name="genero"></input><br>
+					<label for="generoF">Femenino:</label>
+					<input id="generoF" type="radio" required value="Femenino" name="genero"></input><br>
+					<label for="generoX">X:</label>
+					<input id="generoX" type="radio" required value="X" name="genero"></input><br>
+				</div>
+				<label for="correoElectronico">Correo Electronico:</label>
+				<input id="correoElectronico" type="email" name="correoElectronico" placeholder="Ingrese su email" required></input><br>
+				<label for="domicilio">Domicilio:</label>
+				<input id="domicilio" type="text" placeholder="Ingrese el domicilio" name="domicilio" required></input><br>
+				<label for="provincia">Provincia:</label>
+				<select id="provincia" name="provincia" required>
+					<option value="Jujuy">Jujuy</option>
+					<option value="Salta" selected>Salta</option>
+					<option value="Tucuman">Tucuman</option>
+					<option value="Chaco">Chaco</option>
+					<option value="Misiones">Misiones</option>
+				</select><br>
+				<label for="celular">Telefono Celular:</label>
+				<input id="celular" type="number" placeholder="Ingrese el numero de celular" name="celular" required></input><br>
+				<label>Categorias de Interes:</label>
+				<div>
+					<label for="interesesF">Futbol:</label>
+					<input id="interesesF" type="checkbox" name="intereses"></input><br>
+					<label for="interesesT">Turismo:</label>
+					<input id="interesesT" type="checkbox" name="intereses"></input><br>
+					<label for="interesesG">Gastronomia:</label>
+					<input id="interesesG" type="checkbox" name="intereses"></input><br>
+				</div>
+				<label for="sugerencia">Sugerencias:</label><br>
+				<textarea id="sugerencia" placeholder="Ingrese Comentarios" name="sugerencia" rows="8" cols="40"></textarea><br>
+				<label for="password">Password:</label>
+				<input id="password" type="password" required placeholder="Ingrese el password" name="password" maxlength="10" minlength="4"></input><br>
+				<label for="passwordDenuevo">Password Nuevamente:</label>
+				<input id="passwordDenuevo" type="password" required placeholder="Ingrese el password denuevo" name="passwordDenuevo" maxlength="10" minlength="4"></input><br>
+				<label for="t&c">Acepto los terminos y Condiciones:</label>
+				<input id="t&c" type="checkbox" required name="t&c"></input><br>
+				<label for="informacionRelativa">Acepto recibir informacion relativa a la empresa:</label>
+				<input id="informacionRelativa" type="checkbox" name="InfRel"></input><br>
+				<input type="button" value="Cancelar">
+				<input type="submit" value="Guardar">
+			</form>
+		</main>
+		<footer>
+		<p>Informacion de Contacto Y Redes Sociales (UNJu)</p>
+		<p>Correo Oficial: virtual@unju.edu.ar</p>
+		<p>Facebook: <a href="https://www.facebook.com/unjuvirtual/" target="_blank">Unju Virtual</a></p>
+		<p>LinkedIN: <a href="https://ar.linkedin.com/company/unjuvirtual" target="_blank">Unju Virtual</a></p>
+		<p>Pagina Escuela de Minas: <a href="https://escmi.unju.edu.ar" target="_blank">EDM</a></p>
+		<p><a href="/images/Dog.png" target="_blank">Easter Egg</a></p>
+		</footer>
+	</body>
+</html>

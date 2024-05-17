@@ -1,0 +1,28 @@
+@charset "UTF-8";
+header{
+	background-color:#80ffff;
+	margin:10px;
+	padding:20px;
+}
+.main{
+	background-color:#c0c0c0;
+	padding:20px;
+	margin:10px;
+	flex:3;
+}
+.recursos{
+	flex:1;
+	padding:20px;
+	background-color:#9fffff;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+}
+footer{
+	text-align:center;
+	background-color:#80ffff;
+	margin:10px;
+	padding:20px;
+}
